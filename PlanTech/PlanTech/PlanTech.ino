@@ -15,7 +15,7 @@ const int light = 4;
 int soilMoistureInterval = 5400000;                                      //time to wait before checking the soil moisture level - default it to an hour = 1800000
 int soilMoistureThreshold = 500;                                  // threshold for the soil moisture to detect to start pumping water
 int waterLevelThreshold = 300;                                    // threshold for a low water level in the water container
-int amountToPump = 6000;                                           // how long in milliseconds the pump should pump water for when the plant needs it
+int amountToPump = 5000;                                           // how long in milliseconds the pump should pump water for when the plant needs it
 
 // Global temp values
 int WaterLevelsensorValue = 0;                                      // somewhere to store the value read from the water level sensor
